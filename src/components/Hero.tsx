@@ -21,8 +21,8 @@ export default function Hero() {
             </div>
 
             {/* Text Content */}
-            <div className="flex flex-col lg:items-start text-left mds:items-center">
-              <h1 className="text-4xljustify-start md:text-6xl lg:text-7xl font-bold mb-6 md:mb-8 text-white">
+            <div className="flex flex-col lg:items-start text-left sm:items-center">
+              <h1 className="text-4xl justify-start md:text-6xl lg:text-7xl font-bold mb-6 md:mb-8 text-white">
                 Felipe Ferreira
               </h1>
               <div className="flex flex-wrap gap-2 md:gap-3 justify-center mb-6 md:mb-8">
@@ -50,8 +50,8 @@ export default function Hero() {
 
         {/* Scroll Indicator */}
         <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
-          <div className="w-16 h-16 rounded-2xl bg-gray-300/80 backdrop-blur-sm flex items-center justify-center animate-bounce">
-            <ChevronDown size={32} className="text-gray-900" />
+          <div className="w-16 h-16 rounded-2xl bg-gray-300/80 backdrop-blur-sm items-center justify-center animate-bounce hidden md:flex ">
+            <ChevronDown size={32} className="text-gray-900 " />
           </div>
         </div>
       </div>
