@@ -1,4 +1,5 @@
 import type { Project } from "../types/project";
+import { motion } from "framer-motion";
 
 interface ProjectCardProps {
   project: Project;
@@ -18,19 +19,29 @@ export default function ProjectCard({
   };
 
   return (
-    <div
-      className={`bg-gray-300/10 backdrop-blur-sm rounded-2xl overflow-hidden hover:transform hover:scale-105 transition-all group ${
+    <motion.div
+      className={`bg-gray-300/10 backdrop-blur-sm rounded-2xl overflow-hidden group ${
         project.url ? "cursor-pointer" : ""
       }`}
       onClick={handleCardClick}
+      whileHover={{
+        scale: 1.05,
+        transition: { duration: 0.1 },
+      }}
+      whileTap={{ scale: 0.95 }}
     >
       <div
         className={`h-48 bg-linear-to-br from-${gradientFrom} to-${gradientTo} flex items-center justify-center overflow-hidden`}
       >
-        <img
+        <motion.img
           src={project.image}
           alt={project.title}
-          className="w-full h-full object-cover opacity-70 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+          className="w-full h-full object-cover opacity-70"
+          whileHover={{
+            opacity: 1,
+            scale: 1.1,
+            transition: { duration: 0.15 },
+          }}
         />
       </div>
       <div className="p-6">
@@ -38,15 +49,20 @@ export default function ProjectCard({
         <p className="text-gray-300 text-sm mb-4">{project.description}</p>
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag, i) => (
-            <span
+            <motion.span
               key={i}
               className="px-3 py-1 bg-gray-300/20 rounded-full text-xs"
+              whileHover={{
+                scale: 1.1,
+                backgroundColor: "rgba(255, 255, 255, 0.2)",
+              }}
+              transition={{ duration: 0.1 }}
             >
               {tag}
-            </span>
+            </motion.span>
           ))}
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

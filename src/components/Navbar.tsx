@@ -107,7 +107,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 pt-8 pb-4 px-6 hidden md:block">
+    <nav className="fixed top-0 left-0 right-0 z-50 pt-10 pb-4 px-6 hidden md:block">
       <div className="max-w-6xl mx-auto flex justify-center">
         <div
           ref={navRef}
