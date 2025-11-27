@@ -9,16 +9,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 export default function Portfolio() {
-  const [scrolled, setScrolled] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
