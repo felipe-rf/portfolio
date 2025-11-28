@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/portfolio/", // Replace 'portt' with your repository name
+  base: "/", // Replace 'portt' with your repository name
 });

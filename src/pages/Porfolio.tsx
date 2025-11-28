@@ -26,7 +26,7 @@ export default function Portfolio() {
         title: "D&D Initiative Tracker",
         description: "Tool for tracking combat initiative in tabletop RPGs.",
         tags: ["React", "TypeScript", "Tailwind"],
-        image: "/portfolio/InitativeTracker.png",
+        image: "/InitativeTracker.png",
         url: "https://felipe-rf.github.io/initiative-tracker/?data=JTVCJTdCJTIybmFtZSUyMiUzQSUyMkljY2FyaW9uJTIyJTJDJTIybWF4SHAlMjIlM0E0MCUyQyUyMmN1cnJlbnRIcCUyMiUzQTIwJTJDJTIydGVtcEhwJTIyJTNBNSUyQyUyMmFjJTIyJTNBMTUlMkMlMjJpbml0aWF0aXZlJTIyJTNBMTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjM4MTNkOWMlMjIlMkMlMjJpZCUyMiUzQTIlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyVGFlbCUyMiUyQyUyMm1heEhwJTIyJTNBMzAlMkMlMjJjdXJyZW50SHAlMjIlM0ExNSUyQyUyMnRlbXBIcCUyMiUzQTAlMkMlMjJhYyUyMiUzQTE1JTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTYlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjNkYzhhZGQlMjIlMkMlMjJpZCUyMiUzQTElN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyVmlrdG9yJTIyJTJDJTIybWF4SHAlMjIlM0EyMCUyQyUyMmN1cnJlbnRIcCUyMiUzQTIwJTJDJTIydGVtcEhwJTIyJTNBMCUyQyUyMmFjJTIyJTNBMTMlMkMlMjJpbml0aWF0aXZlJTIyJTNBNSUyQyUyMmxpbmslMjIlM0ElMjIlMjIlMkMlMjJkZWFkJTIyJTNBZmFsc2UlMkMlMjJjb2xvciUyMiUzQSUyMiUyM2Y2NjE1MSUyMiUyQyUyMmlkJTIyJTNBMyU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJHb2JsaW4lMjIlMkMlMjJtYXhIcCUyMiUzQTEwJTJDJTIyY3VycmVudEhwJTIyJTNBNCUyQyUyMnRlbXBIcCUyMiUzQTAlMkMlMjJhYyUyMiUzQTEyJTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjNmZmZmZmYlMjIlMkMlMjJpZCUyMiUzQTQlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyR29ibGluJTIyJTJDJTIybWF4SHAlMjIlM0ExMCUyQyUyMmN1cnJlbnRIcCUyMiUzQTAlMkMlMjJ0ZW1wSHAlMjIlM0EwJTJDJTIyYWMlMjIlM0EwJTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQXRydWUlMkMlMjJjb2xvciUyMiUzQSUyMiUyMzI2YTI2OSUyMiUyQyUyMmlkJTIyJTNBNSU3RCU1RA%3D%3D",
       },
       {
@@ -34,8 +34,8 @@ export default function Portfolio() {
         description:
           "Personal portfolio website to showcase my projects and skills.",
         tags: ["React", "TypeScript", "Tailwind"],
-        image: "/portfolio/Portfolio.png",
-        url: "https://github.com/felipe-rf/portfolio",
+        image: ".png",
+        url: "https://github.com/felipe-rf",
       },
     ],
     gamedev: [
@@ -43,21 +43,21 @@ export default function Portfolio() {
         title: "Breakout Clone",
         description: "Breakout clone made with Godot Engine.",
         tags: ["Godot", "Arcade", "2D"],
-        image: "/portfolio/Breakout.png",
+        image: "/Breakout.png",
         url: "https://feliper.itch.io/breakout",
       },
       {
         title: "Frog Game",
         description: "2D Platformer with fun moveset and 3 levels.",
         tags: ["Godot", "Platformer", "2D"],
-        image: "/portfolio/FrogGame.png",
+        image: "/FrogGame.png",
         url: "https://feliper.itch.io/froggame",
       },
       {
         title: "GDRPG",
         description: "Turn-based RPG made with Godot Engine.",
         tags: ["Godot", "RPG", "2D"],
-        image: "/portfolio/GDRPG.png",
+        image: "/GDRPG.png",
         url: "https://feliper.itch.io/gdrpg",
       },
     ],
@@ -66,7 +66,7 @@ export default function Portfolio() {
         title: "Homy",
         description: "Academic project for a house searching website.",
         tags: ["Figma", "UI/UX", "Responsive"],
-        image: "/portfolio/Homy.png",
+        image: "/Homy.png",
         url: "https://www.figma.com/design/e9qMp2hQje3XhVaSxNwkaN/Homy-UX---High?node-id=0-1&t=GfUbpjLWDMWDvP3F-1",
       },
       {
@@ -74,7 +74,7 @@ export default function Portfolio() {
         description:
           "Mobile app for buying groceries with a focus on sustainability.",
         tags: ["Figma", "UI/UX", "Mobile"],
-        image: "/portfolio/GreenBasket.png",
+        image: "/GreenBasket.png",
         url: "https://www.figma.com/design/asIF6W6UtXea1itJhkZxwi/requisitos?node-id=33-444&t=GfUbpjLWDMWDvP3F-1",
       },
     ],

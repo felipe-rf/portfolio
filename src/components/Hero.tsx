@@ -57,7 +57,7 @@ export default function Hero() {
             >
               <div className="w-40 h-40 md:w-52 md:h-52 rounded-3xl outline-10 outline-white/70 bg-gray-300/80 backdrop-blur-sm overflow-hidden">
                 <img
-                  src="/portfolio/HandsomeGuy.png"
+                  src="/HandsomeGuy.png"
                   alt="Profile"
                   className="w-full h-full object-cover"
                 />
