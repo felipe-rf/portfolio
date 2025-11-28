@@ -1,4 +1,4 @@
-import { ChevronDown, X } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
@@ -50,6 +50,10 @@ export default function Hero() {
             <motion.div
               className="shrink-0 order-1 md:order-0"
               variants={imageVariants}
+              whileHover={{
+                scale: 1.05,
+                transition: { duration: 0.1 },
+              }}
             >
               <div className="w-40 h-40 md:w-52 md:h-52 rounded-3xl outline-10 outline-white/70 bg-gray-300/80 backdrop-blur-sm overflow-hidden">
                 <img
@@ -75,15 +79,33 @@ export default function Hero() {
                 className="flex flex-wrap gap-2 md:gap-3 justify-center mb-6 md:mb-8"
                 variants={itemVariants}
               >
-                <div className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base">
+                <motion.div
+                  whileHover={{
+                    scale: 1.05,
+                    transition: { duration: 0.1 },
+                  }}
+                  className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base"
+                >
                   Front-End
-                </div>
-                <div className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base">
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    scale: 1.05,
+                    transition: { duration: 0.1 },
+                  }}
+                  className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base"
+                >
                   DevOps
-                </div>
-                <div className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base">
+                </motion.div>
+                <motion.div
+                  whileHover={{
+                    scale: 1.05,
+                    transition: { duration: 0.1 },
+                  }}
+                  className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base"
+                >
                   GameDev
-                </div>
+                </motion.div>
               </motion.div>
             </motion.div>
           </div>
