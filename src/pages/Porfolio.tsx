@@ -34,7 +34,7 @@ export default function Portfolio() {
         description:
           "Personal portfolio website to showcase my projects and skills.",
         tags: ["React", "TypeScript", "Tailwind"],
-        image: ".png",
+        image: "/Portfolio.png",
         url: "https://github.com/felipe-rf",
       },
     ],
