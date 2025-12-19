@@ -30,6 +30,13 @@ export default function Portfolio() {
         url: "https://felipe-rf.github.io/initiative-tracker/?data=JTVCJTdCJTIybmFtZSUyMiUzQSUyMkljY2FyaW9uJTIyJTJDJTIybWF4SHAlMjIlM0E0MCUyQyUyMmN1cnJlbnRIcCUyMiUzQTIwJTJDJTIydGVtcEhwJTIyJTNBNSUyQyUyMmFjJTIyJTNBMTUlMkMlMjJpbml0aWF0aXZlJTIyJTNBMTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjM4MTNkOWMlMjIlMkMlMjJpZCUyMiUzQTIlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyVGFlbCUyMiUyQyUyMm1heEhwJTIyJTNBMzAlMkMlMjJjdXJyZW50SHAlMjIlM0ExNSUyQyUyMnRlbXBIcCUyMiUzQTAlMkMlMjJhYyUyMiUzQTE1JTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTYlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjNkYzhhZGQlMjIlMkMlMjJpZCUyMiUzQTElN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyVmlrdG9yJTIyJTJDJTIybWF4SHAlMjIlM0EyMCUyQyUyMmN1cnJlbnRIcCUyMiUzQTIwJTJDJTIydGVtcEhwJTIyJTNBMCUyQyUyMmFjJTIyJTNBMTMlMkMlMjJpbml0aWF0aXZlJTIyJTNBNSUyQyUyMmxpbmslMjIlM0ElMjIlMjIlMkMlMjJkZWFkJTIyJTNBZmFsc2UlMkMlMjJjb2xvciUyMiUzQSUyMiUyM2Y2NjE1MSUyMiUyQyUyMmlkJTIyJTNBMyU3RCUyQyU3QiUyMm5hbWUlMjIlM0ElMjJHb2JsaW4lMjIlMkMlMjJtYXhIcCUyMiUzQTEwJTJDJTIyY3VycmVudEhwJTIyJTNBNCUyQyUyMnRlbXBIcCUyMiUzQTAlMkMlMjJhYyUyMiUzQTEyJTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQWZhbHNlJTJDJTIyY29sb3IlMjIlM0ElMjIlMjNmZmZmZmYlMjIlMkMlMjJpZCUyMiUzQTQlN0QlMkMlN0IlMjJuYW1lJTIyJTNBJTIyR29ibGluJTIyJTJDJTIybWF4SHAlMjIlM0ExMCUyQyUyMmN1cnJlbnRIcCUyMiUzQTAlMkMlMjJ0ZW1wSHAlMjIlM0EwJTJDJTIyYWMlMjIlM0EwJTJDJTIyaW5pdGlhdGl2ZSUyMiUzQTAlMkMlMjJsaW5rJTIyJTNBJTIyJTIyJTJDJTIyZGVhZCUyMiUzQXRydWUlMkMlMjJjb2xvciUyMiUzQSUyMiUyMzI2YTI2OSUyMiUyQyUyMmlkJTIyJTNBNSU3RCU1RA%3D%3D",
       },
       {
+        title: "Villager Birthday finder",
+        description: "Tool for finding villager birthdays in Animal Crossing.",
+        tags: ["React", "TypeScript", "Tailwind"],
+        image: "/villager.png",
+        url: "https://felipe-rf.github.io/villager-birthday-finder/",
+      },
+      {
         title: "This Website :D",
         description:
           "Personal portfolio website to showcase my projects and skills.",
