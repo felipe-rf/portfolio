@@ -32,7 +32,7 @@ export default function Portfolio() {
       {
         title: "Villager Birthday finder",
         description: "Tool for finding villager birthdays in Animal Crossing.",
-        tags: ["React", "TypeScript", "Tailwind"],
+        tags: ["React", "TypeScript", "MaterialUI"],
         image: "/villager.png",
         url: "https://felipe-rf.github.io/villager-birthday-finder/",
       },
