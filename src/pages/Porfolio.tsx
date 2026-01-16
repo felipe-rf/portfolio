@@ -45,6 +45,15 @@ export default function Portfolio() {
         url: "https://github.com/felipe-rf",
       },
     ],
+    backend: [
+      {
+        title: "RPG Character API",
+        description: "A RESTful API for managing rpg characters and spells.",
+        tags: ["Java", "SpringBoot", "PostgreSQL", "Docker"],
+        image: "/RPGApi.png",
+        url: "https://github.com/felipe-rf/rpg-api-springboot",
+      },
+    ],
     gamedev: [
       {
         title: "Breakout Clone",

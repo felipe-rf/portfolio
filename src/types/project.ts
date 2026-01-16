@@ -9,5 +9,6 @@ export interface Project {
 export interface ProjectsData {
   frontend: Project[];
   gamedev: Project[];
+  backend: Project[];
   design: Project[];
 }

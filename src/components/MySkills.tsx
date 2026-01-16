@@ -17,6 +17,12 @@ const skillsData = [
     iconColor: "text-purple-400",
   },
   {
+    icon: Code,
+    title: "Back-end",
+    skills: ["Java", "SpringBoot", "PostgreSQL", "Python", "Node.js"],
+    iconColor: "text-purple-400",
+  },
+  {
     icon: Server,
     title: "DevOps",
     skills: [
@@ -88,7 +94,7 @@ export default function MySkills() {
           Skills & Technologies
         </motion.h2>
         <motion.div
-          className="grid md:grid-cols-3 gap-8"
+          className="grid md:grid-cols-4 gap-8"
           variants={containerVariants}
         >
           {skillsData.map((skillCategory, index) => (

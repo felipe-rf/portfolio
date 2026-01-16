@@ -86,7 +86,7 @@ export default function Hero() {
                   }}
                   className="px-4 py-2 md:px-6 md:py-3 bg-gray-300/80 backdrop-blur-sm rounded-full text-gray-900 font-medium text-sm md:text-base"
                 >
-                  Front-End
+                  Full-Stack
                 </motion.div>
                 <motion.div
                   whileHover={{

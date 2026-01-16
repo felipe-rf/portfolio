@@ -73,7 +73,7 @@ export default function MyProjects({ projects }: MyProjectsProps) {
         <motion.div className="mb-10 md:mb-16" variants={sectionVariants}>
           <h3 className="text-3xl font-semibold mb-6 flex items-center gap-3">
             <Code className="text-purple-400" />
-            Front-end Development
+            Front-End Development
           </h3>
           <motion.div
             className="grid md:grid-cols-3 gap-6"
@@ -85,6 +85,26 @@ export default function MyProjects({ projects }: MyProjectsProps) {
                   project={project}
                   gradientFrom="purple-500/20"
                   gradientTo="pink-500/20"
+                />
+              </motion.div>
+            ))}
+          </motion.div>
+        </motion.div>
+        <motion.div className="mb-10 md:mb-16" variants={sectionVariants}>
+          <h3 className="text-3xl font-semibold mb-6 flex items-center gap-3">
+            <Code className="text-purple-400" />
+            Back-End Development
+          </h3>
+          <motion.div
+            className="grid md:grid-cols-3 gap-6"
+            variants={containerVariants}
+          >
+            {projects.backend.map((project, idx) => (
+              <motion.div key={idx} variants={cardVariants}>
+                <ProjectCard
+                  project={project}
+                  gradientFrom="green-500/20"
+                  gradientTo="cyan-500/20"
                 />
               </motion.div>
             ))}
