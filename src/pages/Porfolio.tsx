@@ -56,6 +56,14 @@ export default function Portfolio() {
     ],
     gamedev: [
       {
+        title: "New Frog Game",
+        description:
+          "2D Platformer with expected Steam release. Currently in development.",
+        tags: ["Godot", "Platformer", "2D"],
+        image: "/NewFrog.png",
+        url: "https://feliper.itch.io/newfrog/",
+      },
+      {
         title: "Breakout Clone",
         description: "Breakout clone made with Godot Engine.",
         tags: ["Godot", "Arcade", "2D"],
@@ -75,6 +83,13 @@ export default function Portfolio() {
         tags: ["Godot", "RPG", "2D"],
         image: "/GDRPG.png",
         url: "https://feliper.itch.io/gdrpg",
+      },
+      {
+        title: "GDSonic",
+        description: "Sonic Game prototype made with Godot Engine.",
+        tags: ["Godot", "Platformer", "2D"],
+        image: "/Sonic.png",
+        url: "https://feliper.itch.io/gdsonic",
       },
     ],
     design: [
